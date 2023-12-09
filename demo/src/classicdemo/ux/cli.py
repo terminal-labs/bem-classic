@@ -1,1 +1,2 @@
-
+def cli():
+	print("cli")

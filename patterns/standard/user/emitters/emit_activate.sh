@@ -1,8 +1,6 @@
 export INSTALLUSER=$1
 source .tmp/_commonenv.sh
 
-echo "emitting"
-
 if [ $INSTALLUSER == "vagrant" ]; then
   echo "skipping creating activate script"
 else
